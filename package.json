@@ -1,0 +1,13 @@
+{
+  "name": "abfire",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AB Fire Protection Consultant static website",
+  "scripts": {
+    "verify": "node scripts/verify-static-site.mjs",
+    "build": "npm run verify"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
